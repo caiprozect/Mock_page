@@ -1,0 +1,80 @@
+/*Font family is Verdana, sans-serif;
+
+Font color for the main title and text is #666, 
+for subtitle - #f07c17
+
+The border around the box under the image should be 
+solid 1px and its color should be#ccc.*/
+.mockup-overlay {
+       top: 0;
+       position: absolute;
+       z-index: -1;
+       opacity: 0.4;
+    }
+
+body{
+	font-family: Verdana, sans-serif;
+}
+.container{
+	width: 100%;
+	padding: 0px;
+}
+h1{
+	color: #666;
+	text-align: center;
+	font-size: 48px;
+	padding-top: 24px;
+	padding-left: 18px;
+}
+h2{
+	color: #f07c17;
+	font-size: 26px;
+}
+p{
+	color: #666;
+	font-size: 16px;
+	line-height: 32px;
+	padding-left: 17px;
+	padding-right: 20px;
+}
+ul{
+	
+}
+li{
+	color: #666;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#img{
+	width: 372px;
+	height: 376px;
+	margin-bottom: 10px;
+}
+#imgDiv{
+	margin-top: 20px;
+	margin-left: 57px;
+	margin-right: 28px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#subtitle{
+	padding-left: 17px;
+}
+#text{
+	padding-top: 20px;
+}
+#navi{
+	margin-top: 20px;
+	border: solid 1px #ccc;
+	width: 372px;
+	height: 224px;
+}
+#lstTitle{
+	padding-left: 30px;
+	margin-top: 28px;
+	letter-spacing: 0.6px;
+}
+#lst{
+	margin-left: 30px;
+	margin-top: 33px;
+}
